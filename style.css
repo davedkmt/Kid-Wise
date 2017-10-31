@@ -36,6 +36,10 @@ font-family: 'Lato', sans-serif; Everywhere else */
   background-color: #5078c6;
 }
 
+#personalize {
+  background-color: #5078c6;
+}
+
 .panel-default>.panel-heading {
     background-color: white;
     margin-top: 10px;

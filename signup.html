@@ -103,11 +103,11 @@
           </div>
           <form>
             <div class="form-group">
-              <label for="name">What is your name?</label>
+              <label for="name"><h4>What is your name?</h4></label>
               <input type="text" class="form-control" id="name" placeholder="Enter your name">
             </div>
             <div class="form-group">
-              <label for="startDate">Where do you live?</label>
+              <label for="startDate"><h4>Where do you live?</h4></label>
               <input type="text" class="form-control" id="cityState" placeholder="City, State">
             </div>
 
@@ -125,29 +125,38 @@
 
             <div class="row">
               <div class="col-xs-2">
+                <h4> Which gender are you? </h4>
               </div>
-        			<div class="col-xs-3">
-        				<img src="smiling-girl.png" class="img-responsive img-radio">
-        				<button type="button" class="btn btn-primary btn-radio text-center">I'm a Girl!</button>
-        				<input type="checkbox" class="gender-checkbox hidden" id="girl-check" value="girl">
-        			</div>
-        			<div class="col-xs-2">
-        			</div>
-        			<div class="col-xs-3">
-        				<img src="boy-broad-smile.png" class="img-responsive img-radio">
-        				<button type="button" class="btn btn-primary btn-radio text-center">I'm a Boy!</button>
-        				<input type="checkbox" class="gender-checkbox hidden" id="boy-check" value="boy">
-        			</div>
+              <div class="col-xs-3">
+                <img src="smiling-girl.png" class="img-responsive img-radio">
+                <button type="button" class="btn btn-primary btn-radio text-center">I'm a Girl!</button>
+                <input type="checkbox" class="gender-checkbox hidden" id="girl-check" value="girl">
+              </div>
+              <div class="col-xs-2">
+              </div>
+              <div class="col-xs-3">
+                <img src="boy-broad-smile.png" class="img-responsive img-radio">
+                <button type="button" class="btn btn-primary btn-radio text-center">I'm a Boy!</button>
+                <input type="checkbox" class="gender-checkbox hidden" id="boy-check" value="boy">
+              </div>
               <div class="col-xs-2">
               </div>
             </div>
-            <button type="submit" class="btn btn-primary" id="personalize">Personalize Me!</button>
+            <div class="row">
+              <div class="col-xs-4">
+              </div>
+              <div class="col-xs-4 text-center">
+                <button type="submit" class="btn btn-primary" id="personalize">Submit My Info</button>
+              </div>
+              <div class="col-xs-4">
+              </div>
+            </div>
           </form>
+          </div>
         </div>
       </div>
-    </div>
 
-    <script src="game.js"></script>
+      <script src="game.js"></script>
 </body>
 
 </html>
