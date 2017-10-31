@@ -302,5 +302,4 @@ function getClear() {
   $("#bottoms").html(" ");
   $("#accessories-1").html(" ");
   $("#character").html(" ");
-
 }
