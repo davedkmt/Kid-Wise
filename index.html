@@ -25,6 +25,7 @@
       <nav class="navbar navbar-expand-md fixed-top" id="header">
         <div>
           <a><img id="logo-2" src="images/logo-two.png" width="auto" height="40"></a>
+          <img id="logo-1" src="images/logo.png">
         </div>
       </nav>
     </div>
@@ -59,7 +60,6 @@
           <div class="panel-heading">
             <p class="weather-title">Your Weather Results for</p>
             <h1 id="city-area"></h1>
-            <hr>
           </div>
           <div class="panel-body text-center">
             <div class="temp area">
@@ -75,9 +75,8 @@
             </div>
             <div class="air area">
               <h5 class="font-color title-all">HUMIDITY:</h5>
-             
+              <a id="air-desc"></a>
               <a class="white-circles"><img src="images/white-circle.png" width="120" height="120"></a>
-              <h5 class="font-color" id="air-desc"></h5>
             </div>
             <div class="allergies area">
               <h5 class="font-color title-all" id="pollen-desc">AIR QUALITY:</h5>
@@ -88,40 +87,3 @@
           </div>
         </div>
       </div>
-
-      <!-- Game centeral: Dress Me! with Weather Apprpriate clothes-->
-      <div class="col-lg-9">
-        <!-- spitting up the title panel portion  -->
-        <div class="row">
-          <div class="col-lg-8">
-            <div class="panel-heading">
-              <p class="panel-title" id="overall-results"></p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <a><img id="logo-1" src="images/logo.png"></a>
-          </div>
-        </div>
-        <div class="row" id="background-img">
-          <div class="col-lg-8">
-            <div class="text-center" id="character">
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="choices" id="div1">
-              <div class="padme text-center" id="tops">
-              </div>
-              <div class="padme text-center" id="bottoms">
-              </div>
-              <div class="padme text-center" id="accessories-1">
-              </div>
-            </div>
-          </div>
-        </div>
-     <h5 id="children"></h5>
-      </div>
-
-      <script src="game.js"></script>
-</body>
-
-</html>
