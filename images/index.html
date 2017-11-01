@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Wise Kid Wise</title>
+
+  <!-- Bootstrap File -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Podkova:800|Suez+One" rel="stylesheet">
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+
+  <!-- Overall Bootstrap Grid -->
+  <div class="row">
+    <div class="col-lg-12">
+      <nav class="navbar navbar-expand-md fixed-top" id="header">
+        <div>
+          <a><img id="logo-2" src="images/logo-two.png" width="auto" height="40"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <!-- Area where the search bar and buttons on left side are located -->
+    <div class="row">
+      <div class="col-lg-3">
+        <form class="form-inline text-center">
+          <input class="form-control" id="pac-input" type="text" placeholder="Where do you live?" aria-label="Search">
+        </form>
+        <div class="text-center">
+          <input class="btn btn-primary" id="today" type="button" value="Today">
+          <input class="btn btn-primary" id="tmrw" type="button" value="Next Day">
+          <input class="btn btn-primary" id="third" type="button" value="3-Day">
+        </div>
+      </div>
+
+      <div class="col-lg-9" id="name-area">
+        <h1 id="user-name">Hi User!</h1>
+      </div>
+    </div>
+
+
+
+    <div class="row">
+      <!-- Left Panel - Weather & allergen results here  -->
+      <div class="col-lg-3" id="right-panel">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <p class="weather-title">Your Weather Results for</p>
+            <h1 id="city-area"></h1>
+            <hr>
+          </div>
+          <div class="panel-body text-center">
+            <div class="temp area">
+              <h5 class="font-color title-all">TEMPERATURE:</h5>
+              <a id="location"></a>
+              <a class="white-circles"><img src="images/white-circle.png" width="120" height="120"></a>
+            </div>
+            <div class="forecast area">
+              <h5 class="font-color title-all">FORECAST:</h5>
+              <a class="icon" id="forecast-icon"></a>
+              <a class="white-circles"><img src="images/white-circle.png" width="120" height="120"></a>
+              <h5 class="font-color" id="forecast-desc"></h5>
+            </div>
+            <div class="air area">
+              <h5 class="font-color title-all">HUMIDITY:</h5>
+              <a class="white-circles"><img src="images/white-circle.png" width="120" height="120"></a>
+              <h5 class="font-color" id="air-desc"></h5>
+            </div>
+            <div class="allergies area">
+              <h5 class="font-color title-all" id="pollen-desc">AIR QUALITY:</h5>
+              <a id="pollution"></a>
+              <a class="white-circles"><img src="images/white-circle.png" width="120" height="120"></a>
+              <h5 class="font-color" id="quality"></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Game centeral: Dress Me! with Weather Apprpriate clothes-->
+      <div class="col-lg-9">
+        <!-- spitting up the title panel portion  -->
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="panel-heading">
+              <p class="panel-title" id="overall-results"></p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <a><img id="logo-1" src="images/logo.png"></a>
+          </div>
+        </div>
+        <div class="row" id="background-img">
+          <div class="col-lg-8">
+            <div class="text-center" id="character">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="choices" id="div1">
+              <div class="padme text-center" id="tops">
+              </div>
+              <div class="padme text-center" id="bottoms">
+              </div>
+              <div class="padme text-center" id="accessories-1">
+              </div>
+            </div>
+          </div>
+        </div>
+        <h5 id="children"></h5>
+      </div>
+
+      <script src="game.js"></script>
+</body>
+
+</html>
