@@ -95,8 +95,21 @@ font-family: 'Lato', sans-serif; Everywhere else */
 }
 
 #location {
-  font-size: 78px;
+  font-size: 76px;
   top: 20%;
+  left: 35%;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  letter-spacing: -4.7px;
+  color: black;
+  font-weight: bolder;
+  font-family: 'Podkova', serif;
+}
+
+#air-desc {
+  font-size: 50px;
+  top: 62%;
   left: 35%;
   border-radius: 50%;
   position: absolute;
@@ -110,7 +123,7 @@ font-family: 'Lato', sans-serif; Everywhere else */
 #forecast-icon {
     position: absolute;
     z-index: 1;
-    top: 36%;
+    top: 39%;
 }
 
 #pollution {
