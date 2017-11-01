@@ -66,7 +66,7 @@ font-family: 'Lato', sans-serif; Everywhere else */
 }
 
 .padme {
-  padding: 10px 0 10px
+  padding: 10px 5px 10px 5px;
 }
 
 .btn {
@@ -95,8 +95,8 @@ font-family: 'Lato', sans-serif; Everywhere else */
 
 #location {
   font-size: 78px;
-  left: 98px;
-  top: 279px;
+  top: 22%;
+  left: 35%;
   border-radius: 50%;
   position: absolute;
   z-index: 1;
@@ -107,8 +107,9 @@ font-family: 'Lato', sans-serif; Everywhere else */
 }
 
 #forecast-icon {
-  position: absolute;
-  z-index: 1;
+    position: absolute;
+    z-index: 1;
+    top: 40%;
 }
 
 #pollution {
@@ -130,9 +131,13 @@ font-family: 'Lato', sans-serif; Everywhere else */
   z-index: 1;
 }
 
-img {
-  margin: 15px;
+img#gender {
+    margin-top: 75px;
 }
+
+/*img {
+  margin: 15px;
+}*/
 
 code {
   color: black;
@@ -144,6 +149,9 @@ code {
   width: 100px;
   background-image: url("http://cliparts101.com/files/411/6D9F0580A8672AFCEF4E28238FB092E9/Cartoon_Cloud.png");
   border-radius: 50%;
+  top: 18%;
+  left: 10%;
+  position: relative;
 }
 
 .form-objects {
