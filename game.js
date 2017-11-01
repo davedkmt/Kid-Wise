@@ -36,13 +36,13 @@ $("#personalize").on("click", function(event) {
   } else {
     gender = "unknown";
   }
-
-
   console.log(name);
   console.log(location);
   console.log(gender);
-});
 
+
+
+});
 
 
 ////////////////WEATHER RESULTS PANEL//////////////////////
