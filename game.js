@@ -308,7 +308,7 @@ function getDressed() {
   $("#overall-results").text("It'll be a COOLER DAY for you. Be sure to dress in layers, with a long sleeved shirt or a light jacket, with long pants.");
 
   $("#background-img").css("background-image", 'url("images/fallish.png")');
-  $("#character").append("<img id='gender' src='images/boy-spring-02.png' height='500px' width='auto'>");
+  $("#character").append("<img id='gender' src='images/boy2-spring-02.png' height='500px' width='auto'>");
 
   $("#tops").append("<h4 class='text-center'> Choose a LONG-SLEEVED top like this one: </h4>");
   $("#tops").append("<img class='text-center' src='images/girlShirt1.png' height='120px' width='auto' ></div>");
