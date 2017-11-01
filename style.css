@@ -246,45 +246,48 @@ form {
 
 /* Additional Screen Sizes */
 @media screen and (max-width: 768px) {
-  /* The body's bg color will be light blue */
   #location {
-    /*font-size: 78px;*/
     top: 20%;
     left: 43%;
-    /*position: absolute;
-    z-index: 1;*/
   }
   #logo-1 {
     height: 0px;
+  }
+  #air-desc {
+    top: 62%;
+    left: 35%;
   }
 }
 
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 1198px) {
 
     #location {
-      /*font-size: 78px;*/
       top: 20%;
       left: 45%;
-      /*position: absolute;
-      z-index: 1;*/
   }
 
   #logo-1 {
     height: 0px;
+  }
+
+  #air-desc {
+    top: 64%;
+    left: 45%;
   }
 }
 /* Width at 320px and below */
 @media screen and (max-width: 640px) {
   #location {
-    /*font-size: 78px;*/
     top: 20%;
     left: 41%;
-    /*position: absolute;
-    z-index: 1;*/
   }
 
   #logo-1 {
     height: 0px;
   }
 
+  #air-desc {
+    top: 63%;
+    left: 42%;
+  }
 }
