@@ -73,6 +73,17 @@ font-family: 'Lato', sans-serif; Everywhere else */
   height: auto;
   float: right;
 }
+#children {
+  font-size: 65px;
+  left: 98px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  letter-spacing: -4.7px;
+  color: black;
+  font-weight: bolder;
+  font-family: 'Podkova', serif;
+}
 
 #location {
   font-size: 78px;
