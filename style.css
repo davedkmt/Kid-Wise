@@ -24,9 +24,8 @@ font-family: 'Lato', sans-serif; Everywhere else */
 }
 
 .btn-radio {
-	width: 100%;
+  width: 100%;
 }
-
 
 .panel-title {
   font-size: 35px;
@@ -37,21 +36,21 @@ font-family: 'Lato', sans-serif; Everywhere else */
 }
 
 .panel-default>.panel-heading {
-    background-color: white;
-    margin-top: 10px;
+  background-color: white;
+  margin-top: 10px;
 }
 
 .panel-heading {
   border-bottom: 1px solid transparent;
-   border-top-left-radius: 0;
-   border-top-right-radius: 0px;
-   border-radius: 4px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0px;
+  border-radius: 4px;
 }
 
 .panel {
-     background-color: transparent;
-     border: 0;
-     border-radius: 4px;
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
 }
 
 .title-all {
@@ -78,6 +77,18 @@ font-family: 'Lato', sans-serif; Everywhere else */
   float: right;
 }
 
+#children {
+  font-size: 65px;
+  left: 98px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  letter-spacing: -4.7px;
+  color: black;
+  font-weight: bolder;
+  font-family: 'Podkova', serif;
+}
+
 #location {
   font-size: 78px;
   left: 98px;
@@ -101,6 +112,7 @@ font-family: 'Lato', sans-serif; Everywhere else */
   z-index: 1;
   height: 100px;
 }
+
 .white-circles {
   position: relative;
   top: 10px;
@@ -137,14 +149,14 @@ code {
 
 #background-img {
   /*background-image: url("images/sunnybackground.jpeg");*/
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   width: 100%;
   height: auto;
   z-index: -1;
 }
 
 body {
-    background: no-repeat fixed center;
+  background: no-repeat fixed center;
 }
 
 .choices {
@@ -153,12 +165,12 @@ body {
 }
 
 /*FONT ELEMENTS FORMATTING*/
+
 h1 {
   font-family: 'Suez One', serif;
   margin-top: 5px;
   margin-bottom: 10px;
 }
-
 
 h2, h3, h4 {
   font-family: 'Podkova', serif;
@@ -185,16 +197,16 @@ p {
 }
 
 #user-name {
- color: #007e67;
- font-size: 30px
+  color: #007e67;
+  font-size: 30px
 }
 
-#overall-results{
+#overall-results {
   line-height: 23px;
   font-size: 20px;
   right-margin: 10px;
 }
 
 form {
-    margin-left: 20px;
+  margin-left: 20px;
 }

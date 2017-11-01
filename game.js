@@ -88,7 +88,7 @@ $("#today").on("click", function(event) {
       console.log(response.random_recommendations.children);
       console.log(response.breezometer_color);
       $("#quality").text(response.breezometer_description);
-      $("#children").text(response.random_recommendations.children + ".");
+      $("#children").text("Parent Alert : " + response.random_recommendations.children + ".");
       // declaring variables for the air quality images
       var first = "http://www.colorhexa.com/800000.png";
       var second = "http://www.colorhexa.com/fe4600.png";
@@ -153,7 +153,7 @@ $("#tmrw").on("click", function(event) {
       console.log(response.breezometer_aqi);
       console.log(response.random_recommendations.children);
       $("#quality").text(response.breezometer_description);
-      $("#children").text(response.random_recommendations.children + ".");
+      $("#children").text("Parent Alert : " + response.random_recommendations.children + ".");
       // declaring variables for the air quality images
       var first = "http://www.colorhexa.com/800000.png";
       var second = "http://www.colorhexa.com/fe4600.png";
@@ -217,7 +217,7 @@ $("#third").on("click", function(event) {
       console.log(response.breezometer_aqi);
       console.log(response.random_recommendations.children);
       $("#quality").text(response.breezometer_description);
-      $("#children").text(response.random_recommendations.children + ".");
+      $("#children").text("Parent Alert : " + response.random_recommendations.children + ".");
       // declaring variables for the air quality images
       var first = "http://www.colorhexa.com/800000.png";
       var second = "http://www.colorhexa.com/fe4600.png";
