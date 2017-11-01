@@ -230,12 +230,47 @@ form {
 
 /*MEDIA QUERIES FORMATTING*/
 
-@media only screen and (max-width: 500px) {
-    body {
-        background-color: lightblue;
-    }
+/* Additional Screen Sizes */
+@media screen and (max-width: 768px) {
+  /* The body's bg color will be light blue */
+  #location {
+    /*font-size: 78px;*/
+    top: 20%;
+    left: 43%;
+    /*position: absolute;
+    z-index: 1;*/
+  }
+  #logo-1 {
+    height: 0px;
+  }
+}
 
+@media screen and (max-width: 1190px) {
 
+    #location {
+      /*font-size: 78px;*/
+      top: 20%;
+      left: 45%;
+      /*position: absolute;
+      z-index: 1;*/
+  }
 
+  #logo-1 {
+    height: 0px;
+  }
+}
+/* Width at 320px and below */
+@media screen and (max-width: 640px) {
+  #location {
+    /*font-size: 78px;*/
+    top: 20%;
+    left: 41%;
+    /*position: absolute;
+    z-index: 1;*/
+  }
+
+  #logo-1 {
+    height: 0px;
+  }
 
 }
