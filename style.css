@@ -14,11 +14,11 @@ font-family: 'Lato', sans-serif; Everywhere else */
 }
 
 #logo-1 {
-  height: 210px;
+  height: 230px;
   z-index: 1;
   position: absolute;
-  top: -150px;
-  right: 16px;
+  top: 0%;
+  right: 10%;
   padding-bottom: 10px;
   transform: rotate(7deg);
 }
@@ -82,20 +82,21 @@ font-family: 'Lato', sans-serif; Everywhere else */
 }
 
 #children {
-  font-size: 65px;
-  left: 98px;
+
+  left: 7%;
   border-radius: 50%;
   position: absolute;
   z-index: 1;
-  letter-spacing: -4.7px;
+  /*letter-spacing: -4.7px;*/
   color: black;
   font-weight: bolder;
   font-family: 'Podkova', serif;
+  margin: 10px
 }
 
 #location {
   font-size: 78px;
-  top: 22%;
+  top: 20%;
   left: 35%;
   border-radius: 50%;
   position: absolute;
@@ -109,7 +110,7 @@ font-family: 'Lato', sans-serif; Everywhere else */
 #forecast-icon {
     position: absolute;
     z-index: 1;
-    top: 40%;
+    top: 36%;
 }
 
 #pollution {
@@ -135,10 +136,6 @@ img#gender {
     margin-top: 75px;
 }
 
-/*img {
-  margin: 15px;
-}*/
-
 code {
   color: black;
   background-color: transparent;
@@ -160,11 +157,11 @@ code {
 }
 
 #background-img {
-  /*background-image: url("images/sunnybackground.jpeg");*/
   background-repeat: no-repeat;
   width: 100%;
   height: auto;
   z-index: -1;
+  margin-left: 10px;
 }
 
 body {
@@ -192,6 +189,14 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
+.parent-font {
+  font-size: 35px;
+  color: red;
+}
+
+.message-font {
+  font-size: 25px;
+}
 .weather-title {
   font-size: 20px;
 }
@@ -221,4 +226,16 @@ p {
 
 form {
   margin-left: 20px;
+}
+
+/*MEDIA QUERIES FORMATTING*/
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+
+
+
+
 }
