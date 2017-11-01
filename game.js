@@ -1,4 +1,4 @@
-/////////global variables here//////////////
+/////////Declare global variables here//////////////
 var todayTemps;
 var todayForecast;
 var show;
