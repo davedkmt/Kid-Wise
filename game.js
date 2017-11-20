@@ -54,7 +54,7 @@ $("#today").on("click", function(event) {
   var city = $("#pac-input").val();
   console.log(city);
   $("#city-area").text(city);
-  var queryURL = "https://api.openweathermap.org/data/2.5/forecast/daily?q=" + city + "&units=imperial" + "&cnt=3" + "&appid=2aa763d94182f81d50a68278af073b03
+  var queryURL = "https://api.openweathermap.org/data/2.5/forecast/daily?q=" + city + "&units=imperial" + "&cnt=3" + "&appid=2aa763d94182f81d50a68278af073b03"
 ";
   // ajax call
   $.ajax({
@@ -125,7 +125,7 @@ $("#tmrw").on("click", function(event) {
   console.log(city);
   $("#city-area").text(city);
 
-  var queryURL = "https://api.openweathermap.org/data/2.5/forecast/daily?q=" + city + "&units=imperial" + "&cnt=3" + "&appid=2aa763d94182f81d50a68278af073b03
+  var queryURL = "https://api.openweathermap.org/data/2.5/forecast/daily?q=" + city + "&units=imperial" + "&cnt=3" + "&appid=2aa763d94182f81d50a68278af073b03"
 ";
   // ajax call
   $.ajax({
@@ -190,7 +190,7 @@ $("#third").on("click", function(event) {
   var city = $("#pac-input").val();
   console.log(city);
   $("#city-area").text(city);
-  var queryURL = "https://api.openweathermap.org/data/2.5/forecast/daily?q=" + city + "&units=imperial" + "&cnt=3" + "&appid=2aa763d94182f81d50a68278af073b03
+  var queryURL = "https://api.openweathermap.org/data/2.5/forecast/daily?q=" + city + "&units=imperial" + "&cnt=3" + "&appid=2aa763d94182f81d50a68278af073b03"
 ";
   // ajax call
   $.ajax({
